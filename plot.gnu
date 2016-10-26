@@ -4,5 +4,5 @@ unset key
 #set dgrid3d 101,101
 set zrange [-1:1]
 do for [i=0:1000:1]{
-splot  'datacpu.dat' index(i) matrix w lines
+splot  'datagpu.dat' index(i) matrix w lines
 }
